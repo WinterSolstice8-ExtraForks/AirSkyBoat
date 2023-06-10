@@ -260,6 +260,11 @@ xi.settings.map =
     -- Enable/disable keeping jug pets through zoning
     KEEP_JUGPET_THROUGH_ZONING = false,
 
+    -- Despawn jug pets that have a minimum level below level sync or zone level restriction.
+    -- Such as despawning Courier Carrie in a level 20 cap when their minimum level to summon is 23.
+    -- While the default value of false is retail accurate, there are some balance concerns such as using 1000 needles at low levels from the cactuar pet.
+    DESPAWN_JUGPETS_BELOW_MINIMUM_LEVEL = false,
+
     -- Engage Time Reduction
     ENGAGE_TIME_REDUCTION = 0.5, -- Decreases re-engage time(ms) by a percentage. (float)
     VERTICAL_CHASE_RANGE  = -10,
